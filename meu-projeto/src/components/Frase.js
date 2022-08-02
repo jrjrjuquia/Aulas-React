@@ -1,8 +1,10 @@
+import styles from './frase.module.css'
+
 function Frase () {
 
     return (
-        <div>
-            <p> Meu Segundo Arquivo JSX</p>
+        <div className={styles.fraseContainer}>
+            <p className={styles.fraseContent}> Meu Segundo Arquivo JSX</p>
         </div>
     )
 

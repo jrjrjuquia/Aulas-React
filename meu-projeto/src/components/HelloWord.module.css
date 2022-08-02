@@ -1,10 +1,10 @@
-.fraseContainer{
+.HelloWordContainer{
     background-color: black;
     color: whitesmoke;
     border-color: 1px solid red;
 }
- .fraseContent{
-    color: blue;
-    background-color: darkgrey;
+ .HelloWordContent{
+    color: black;
+    background-color: yellow;
     margin: 0;
  }

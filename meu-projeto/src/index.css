@@ -1,7 +1,9 @@
 body {
- padding: 25px;
+ padding: 0px;
+ padding-bottom: 500px;
+ margin: 0;
  font-family: 'Times New Roman', Times, serif;
- background-color: darkgrey;
+ background-color: white;
  color: blue;
 }
 h1{
@@ -11,12 +13,11 @@ h2{
   color:black;
 }
 p{
-  background-color: gold;
+  background-color: darkturquoise;
   color: black;
   padding: 10px;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+li{
+  background-color: antiquewhite;
+  padding: 10px;
 }
