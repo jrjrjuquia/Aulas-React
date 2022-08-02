@@ -3,9 +3,10 @@ import './App.css';
 import HelloWord from './components/HelloWord';
 import SayMyName from './components/SayMyName'
 import Pessoa from './components/Pessoa';
+import Frase from './components/Frase';
 
 function App() {
-    return (
+  return (
       <div className="App">
          <HelloWord/>  
          <SayMyName nome = "Junior"/>   
@@ -15,7 +16,8 @@ function App() {
          profissão= "Programador"
          foto= "http://via.placeholder.com/"
          />
-         
+         <Frase/>
+         <Frase/>
       </div>
   )
 
